@@ -12,7 +12,7 @@ public class Triangle {
             double semiPerimeter = (a + b + c) / 2;
             square = Math.sqrt(semiPerimeter *
                     (semiPerimeter - a) *
-                    (semiPerimeter - b) -
+                    (semiPerimeter - b) *
                     (semiPerimeter - c));
             logger.info("Площадь треугольника посчитана.");
         } catch (Exception e) {
